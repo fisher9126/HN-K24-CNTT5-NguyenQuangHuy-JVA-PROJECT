@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="dbSrc:///ba922d1/3b7af31a-19a4-4fb9-9f2b-7fe65a779f1a/schema/bookings/routine/proc_add_equipment_booking@(int,int,int)P.sql" value="3b7af31a-19a4-4fb9-9f2b-7fe65a779f1a" />
+    <file url="dbSrc:///ba922d1/3b7af31a-19a4-4fb9-9f2b-7fe65a779f1a/schema/bookings/routine/proc_find_equipment_booking_by_id@(int)P.sql" value="3b7af31a-19a4-4fb9-9f2b-7fe65a779f1a" />
+  </component>
+</project>
