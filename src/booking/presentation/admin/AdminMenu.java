@@ -2,6 +2,7 @@ package booking.presentation.admin;
 
 import booking.entity.Booking;
 import booking.service.BookingService;
+import booking.service.Statistics;
 
 import java.util.Scanner;
 
@@ -21,6 +22,7 @@ public class AdminMenu {
                     System.out.println("║  3. Manage service                   ║");
                     System.out.println("║  4. Manage user                      ║");
                     System.out.println("║  5. Approve bookings                 ║");
+                    System.out.println("║  6. Statistics                       ║");
                     System.out.println("║  0. Logout                           ║");
                     System.out.println("╚══════════════════════════════════════╝");
                     System.out.print("Enter your choice: ");
@@ -41,6 +43,10 @@ public class AdminMenu {
                             break;
                         case 5:
                             bookingService.updateStatus();
+                            break;
+                        case 6:
+                            Statistics statistics=new Statistics();
+                            statistics.RoomStatistics();
                             break;
                         case 0:
                             return;
